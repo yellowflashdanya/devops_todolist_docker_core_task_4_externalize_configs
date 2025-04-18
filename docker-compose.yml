@@ -14,7 +14,7 @@ services:
       - PYTHONUNBUFFERED=1
       - ENGINE=mysql.connector.django
       - NAME=app_db
-      - USER=app_usr
+      - USER=app_user
       - PASSWORD=1234
       - HOST=mysql
       - PORT=3306
